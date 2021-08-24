@@ -2,7 +2,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-                git 'https://github.com/priximmo/jenkins-helloworld.git'
+                git 'https://github.com/labbenhatem1995/jenkins-helloworld.git'
             }
         }
         stage('Build') {
